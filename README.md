@@ -1,4 +1,36 @@
+# Concept-by-Concept Guide for Building a React Application (PCp Examination)
 
+## Overview
+
+The exam is an end-to-end React application build, not just theoretical.
+
+You are expected to:
+
+* Perform token fetch and private data fetch (public API + protected API using JWT)
+* Set up global state
+* Implement routing using `react-router-dom`
+* Build required features
+* Deploy the application (Vercel or Render)
+
+This follows the same pattern as your CA1:
+
+* Creating a server
+* Using JWT token to access dataset from `/private` endpoint
+
+---
+
+## How to Start Building Your Project
+
+### 1. Initialize Your Project
+
+* Open terminal in your target folder
+
+* Run:
+npm create vite@latest whatever_project_name -- --template react
+cd whatever_project_name
+npm install
+npm install express react-router-dom axios uuid
+npm run dev
 ---
 
 ## 2. Project Folder Structure (Inside `src`)
