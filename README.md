@@ -26,11 +26,14 @@ This follows the same pattern as your CA1:
 * Open terminal in your target folder
 
 * Run:
+
+```bash
 npm create vite@latest whatever_project_name -- --template react
 cd whatever_project_name
 npm install
 npm install express react-router-dom axios uuid
 npm run dev
+```
 ---
 
 ## 2. Project Folder Structure (Inside `src`)
